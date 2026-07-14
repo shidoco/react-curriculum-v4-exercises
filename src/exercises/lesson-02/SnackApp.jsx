@@ -1,5 +1,3 @@
-//Lesson-02 Building with ReactDOM and components
-//Exercise: Build a "Snack Ranking App" Component in this file
 import SnackHeader from './SnackHeader';
 import SnackList from './SnackList';
 import SnackFooter from './SnackFooter';
