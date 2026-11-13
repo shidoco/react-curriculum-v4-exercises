@@ -22,6 +22,20 @@ export default function Header({ user }) {
         >
           History API (MDN)
         </a>
+
+        <NavLink to="/" style={navLinkStyles}>
+          Home
+        </NavLink>
+
+        <NavLink to="/checkout" style={navLinkStyles}>
+          Checkout
+        </NavLink>
+
+        {user?.isLoggedIn && (
+          <NavLink to="/account" style={navLinkStyles}>
+            Account
+          </NavLink>
+        )}
       </nav>
 
       <div style={{ marginTop: 8 }}>
